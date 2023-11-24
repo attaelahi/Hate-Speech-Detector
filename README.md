@@ -16,7 +16,7 @@ Transformers Library (Hugging Face): Used to leverage the pre-trained BERT-based
 PyTorch: The deep learning framework used by the pre-trained model.
 
 # How to Use
-Clone the repository: [git clone https://github.com/your-username/Hate-Speech-Detector.git](https://github.com/attaelahi/Hate-Speech-Detector.git)
+Clone the repository: git clone https://github.com/attaelahi/Hate-Speech-Detector.git)
 
 Install dependencies: pip install -r requirements.txt
 
