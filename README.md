@@ -25,6 +25,7 @@ Run the application: streamlit run app.py
 Access the web interface at http://localhost:8501 and start making predictions.
 
 # Here is the link you can also test
-
+https://hate-speech-detector-czqerdb8dm3dpje53w8bwe.streamlit.app/
 
 # Here is the screenshot
+<img width="960" alt="cx" src="https://github.com/attaelahi/Hate-Speech-Detector/assets/72361631/e9546c72-808b-415c-b68c-20b22f746f61">
