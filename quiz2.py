@@ -4,8 +4,11 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # Load the pre-trained model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
-model = AutoModelForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=2)
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased", num_labels=2)
+
+# Suppress warning about weights not being initialized
+model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased", num_labels=2, state_dict=model.state_dict() if not isinstance(model, type(model)) else None)
 
 # Define the prediction function
 def predict(text):
